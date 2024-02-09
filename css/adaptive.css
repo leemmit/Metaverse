@@ -1,0 +1,216 @@
+/* 
+   >= 1200
+992 - 1199
+768 - 991
+577 - 767
+461 - 576
+415 - 460
+375 - 414
+320 - 374
+ */
+
+@media screen and (max-width: 1199px){
+    .container{
+        margin: 0 15px;
+    }
+    .intro h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .menu{
+        display: none;
+    }
+    .burger{
+        display: contents;
+    }
+    header .logo{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .swiper-container{
+        max-width: 600px;
+        max-height: 338px;
+    }
+    .swiper img{
+        max-width: 500px;
+        max-height: 282px;
+    }
+    #tend h2{
+        font-size: 1.3em;
+    }
+    #history .d-flex > p{
+        max-width: 480px;
+    }
+    #history .d-flex > img{
+        max-width: 360px;
+        max-height: 202px;
+    }
+    #history details .d-flex > p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .social-block{
+        display: none;
+    }
+    .intro > .container{
+        display: block;
+    }
+    .intro h1{
+        padding: 20vh 0 30px;
+        margin-bottom: 0;
+    }
+    .left-intro {
+        width: 100%;
+    }
+    .left-intro p{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .intro button{
+        z-index: 6;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+    .hero-scene{
+        display: none;
+    }
+    #history .d-flex > p{
+        font-size: 16px;
+        max-width: 360px;
+    }
+}
+
+@media screen and (max-width: 764px){
+    .video-info{
+        max-width: 100%;
+        aspect-ratio: 0;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .swiper-container,
+    #history > .d-flex > .swiper-container{
+        max-width: 480px;
+        max-height: 270px;
+    }
+    .swiper img,
+    #history .swiper img{
+        max-width: 380px;
+        max-height: 214px;
+    }
+    #history details > .d-flex{
+        display: block;
+        text-align: center;
+    }
+    #history details > .d-flex > p{
+        max-width: 600px;
+        text-align: left;
+        margin: 0;
+    }
+    #history .d-flex > img{
+        /* max-width: 460px;
+        max-height: 260px; */
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    #history > .d-flex{
+        display: block;
+    }
+    #history > .d-flex > p{
+        max-width: 600px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .header-menu a{
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    .intro h1{
+        font-size: 46px;
+    }
+    .swiper-container{
+        max-width: 420px;
+        max-height: 236px;
+    }
+    .swiper img{
+        max-width: 320px;
+        max-height: 180px;
+    }
+    #history > .d-flex > .swiper-container{
+        max-width: 280px;
+        max-height: 206px;
+    }
+    #history .swiper img{
+        max-width: 320px;
+        max-height: 180px;
+    }
+    #tab-1 .swiper-slide p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .swiper-container{
+        max-width: 320px;
+        max-height: 180px;
+    }
+    .swiper img{
+        max-width: 220px;
+        max-height: 124px;
+    }
+    .header-menu .title{
+        margin: 0 5px;
+    }
+    .header-menu a{
+        font-size: 16px;
+    }
+    .intro h1{
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 374px){
+    header .logo{
+        height: 40px;
+        width: 50px;
+        margin-top: 5px;
+    }
+    .swiper-container{
+        max-width: 280px;
+        max-height: 147px;
+    }
+    .swiper img{
+        max-width: 200px;
+        max-height: 112px;
+    }
+    #history > .d-flex > .swiper-container{
+        max-width: 250px;
+        max-height: 200px;
+    }
+    #history .swiper img{
+        max-width: 190px;
+        max-height: 170px;
+    }
+    .intro h1{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 357px){
+    .header-menu a{
+        font-size: 18px;
+    }
+    .header-menu .title[data-tab="bot"]{
+        margin: 0 30%;
+    }
+}
