@@ -430,7 +430,7 @@ main{
 .main-block{
   min-height: 100vh;
   height: auto;
-  background: url('/docs/assets/hero-bg.svg') no-repeat center;
+  background: url('docs/assets/hero-bg.svg') no-repeat center;
   background-size: cover;
 }
 .main-block .container{
