@@ -296,7 +296,7 @@ header .logo:hover{
 footer{
   height: 50px;
   width: 100%;
-  background: url('/docs/assets/hero-bg.svg') no-repeat center;
+  background: url(../docs/assets/hero-bg.svg) no-repeat center;
   background-size: cover;
   text-align: center;
   border-top: 2px solid #777;
@@ -430,7 +430,7 @@ main{
 .main-block{
   min-height: 100vh;
   height: auto;
-  background: url('docs/assets/hero-bg.svg') no-repeat center;
+  background: url(../docs/assets/hero-bg.svg) no-repeat center;
   background-size: cover;
 }
 .main-block .container{
